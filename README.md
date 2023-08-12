@@ -13,4 +13,6 @@
   that target the key functionality precisely.s
 
 ## How to conduct the task
-Implement the desired functionality by fleshing out the functionality of the `src/solution.py` file.
+- Use a py39 environment
+- Ensure that your task can be executed on an x86 CPU
+- Implement the desired functionality by fleshing out the functionality of the `src/solution.py` file.

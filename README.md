@@ -8,11 +8,22 @@
 - Also write a function to convert the int8-based tensor back to fp16
 - Your function should stochastically round (https://nhigham.com/2020/07/07/what-is-stochastic-rounding/) the source
   tensor. Note that there are edge cases, all of which should be considered.
-- Write a unit test that asserts the expected value of the casting function is close to the source tensor to validate
-  your stochastic rounding implementation. The unit test is part of the task and we're looking for detailed assertions
-  that target the key functionality precisely.s
+- Write unit test thats assert the expected value of the casting function is close to the source tensor to validate
+  your stochastic rounding implementation. The unit test is part of the task and we're looking for detailed and thorough assertions
+  that target the key functionality precisely.
 
-## How to conduct the task
+## Environment
 - Use a py39 environment
 - Ensure that your task can be executed on an x86 CPU
-- Implement the desired functionality by fleshing out the functionality of the `src/solution.py` file.
+- Start from `src/solution.py`
+
+## FAQ
+
+#### Can I use numpy?
+No, only pytorch
+
+#### How long should this take me?
+Successful candidates usually take between a few hours and a full day to arrive at a complete solution
+
+#### How do I submit the task
+Send a link to a _private_ github repo to @sebastiandero

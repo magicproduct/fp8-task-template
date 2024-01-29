@@ -26,4 +26,4 @@ No, only pytorch
 Successful candidates usually take between a few hours and a full day to arrive at a complete solution
 
 #### How do I submit the task
-Invite @magic-screening-tasks-gh-sa to your _private_ github repo and let us know you are ready.
+Invite @magic-screening-tasks-gh-sa and @EricSteinberger to your _private_ github repo and let us know you are ready.

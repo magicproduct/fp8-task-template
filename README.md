@@ -5,7 +5,7 @@
   this function).
 - The fp8 tensor should be stored as a uint8 tensor because not all GPUs support fp8 natively. Cast to fp8, not to
   uint8. Clarifying Note: This task is about shifting bits, not using .to(torch.uint8).
-- Also, write a function to convert the int8-based tensor back to fp16
+- Also, write a function to convert the int8-based tensor back to bfloat16
 - Your function should stochastically round (https://nhigham.com/2020/07/07/what-is-stochastic-rounding/) the source
   tensor. Note that there are edge cases, all of which should be considered.
 - Write unit test that assert the expected value of the casting function is close to the source tensor to validate

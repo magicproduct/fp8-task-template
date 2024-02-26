@@ -8,7 +8,7 @@
 - Also, write a function to convert the int8-based tensor back to fp16
 - Your function should stochastically round (https://nhigham.com/2020/07/07/what-is-stochastic-rounding/) the source
   tensor. Note that there are edge cases, all of which should be considered.
-- Write a unit test that asserts the expected value of the casting function is close to the source tensor to validate
+- Write unit test that assert the expected value of the casting function is close to the source tensor to validate
   your stochastic rounding implementation. The unit test is part of the task, and we're looking for detailed and thorough assertions
   that target the key functionality precisely.
 
